@@ -26,5 +26,7 @@ one central fact table for usage numbers, connected directly to dimension tables
 
 Resource: Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
+An idempotent HTTP method cannot change data on the server that is A common misconception in software.This is incorrect. sending the same request several times has the same intended effect as sending it once This is known as Idempotent. DELETE can remove one and PUT can replace a resource, but both are idempotent. Safe methods such as GET and HEAD, are intended for read-only operations so they are different.this distinction confirms in RFC 9110, Section 9.2.2, “Idempotent Methods,”. a client can retry an idempotent request after a connection failure without repeating its intended effect so This matters.
 
 ## Open Question
+If there are duplicate emergency reports when a responder’s app retries a POST request after losing its connection, how will the service prevent them?
